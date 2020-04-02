@@ -52,6 +52,7 @@
   ],
   "dependencies": {
     "@octokit/rest": "^17.1.4",
+    "lodash": "^4.17.15",
     "styled-components": "^5.0.1"
   }
 }
