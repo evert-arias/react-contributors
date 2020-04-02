@@ -2,10 +2,10 @@ import React from "react";
 
 import Contributors from "react-contributors";
 
-// Owner username.
+// Username of the repo(s) owner.
 const owner = "evert-arias";
 
-// Repo(s) name. Single string or array with multiple repo names.
+// Repository name or array with multiple repositories names.
 const repos = ["EasyButton", "easybtn.earias.me"];
 
 const App = () => {
