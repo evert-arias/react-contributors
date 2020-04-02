@@ -21,7 +21,10 @@ import React, { Component } from "react";
 
 import Contributors from "react-contributors";
 
+// Username of the repo(s) owner.
 const owner = "evert-arias";
+
+// Repository name or array with multiple repositories names.
 const repos = ["EasyButton", "easybtn.earias.me"];
 
 class App extends Component {
@@ -31,11 +34,11 @@ class App extends Component {
 }
 ```
 
-You have to pass the following two props to the component:
+You must pass the following two props to the component:
 
-**owner**: Username of the repository owner.
+**owner**: Username of the repo(s) owner.
 
-**repo**: The name of the repository you which to get the contributors from.
+**repo**: Repository name or array with multiple repositories names
 
 ## License
 
