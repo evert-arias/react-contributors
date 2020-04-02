@@ -4,6 +4,10 @@
 
 [![NPM](https://img.shields.io/npm/v/react-contributors.svg)](https://www.npmjs.com/package/react-contributors) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+## Demo
+
+Live demo: https://evert-arias.github.io/react-contributors/
+
 ## Install
 
 ```bash
@@ -13,13 +17,13 @@ npm install --save react-contributors
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
-import Contributors from 'react-contributors'
+import Contributors from "react-contributors";
 
 class App extends Component {
   render() {
-    return <Contributors owner="evert-arias" repo="EasyButton" />
+    return <Contributors owner="evert-arias" repo="EasyButton" />;
   }
 }
 ```
