@@ -21,9 +21,12 @@ import React, { Component } from "react";
 
 import Contributors from "react-contributors";
 
+const owner = "evert-arias";
+const repos = ["EasyButton", "easybtn.earias.me"];
+
 class App extends Component {
   render() {
-    return <Contributors owner="evert-arias" repo="EasyButton" />;
+    return <Contributors owner={owner} repo={repos} />;
   }
 }
 ```
