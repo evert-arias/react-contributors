@@ -19,7 +19,7 @@ import Contributors from 'react-contributors'
 
 class App extends Component {
   render() {
-    return <Contributors />
+    return <Contributors owner="evert-arias" repo="EasyButton" />
   }
 }
 ```
