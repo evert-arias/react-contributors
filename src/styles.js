@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Contributors = styled.div`
+export const ContributorsList = styled.div`
   display: flex;
   align-content: center;
   flex-flow: row wrap;
