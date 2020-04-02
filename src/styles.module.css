@@ -1,0 +1,51 @@
+:root {
+  --ifm-profile-intro-left-margin: 1rem;
+  --ifm-profile-intro-alignment: inherit;
+  --ifm-profile-photo-bottom-margin: 0;
+  --ifm-profile-photo-size-sm: 2rem;
+  --ifm-profile-photo-size-md: 3rem;
+}
+
+.contributors {
+  display: flex;
+  align-content: center;
+  flex-flow: row wrap;
+  height: 100%;
+  margin: 1rem 1rem;
+}
+
+.profile {
+  display: flex;
+  min-width: 18.125rem;
+  width: 20%;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.profile .photo {
+  overflow: hidden;
+  border-radius: 50%;
+  height: var(--ifm-profile-photo-size-md);
+  margin-bottom: var(--ifm-profile-photo-bottom-margin);
+  width: var(3rem);
+}
+
+.profile .photo .photo-lg {
+  height: var(4rem);
+  width: var(4rem);
+}
+
+.profile .intro {
+  display: flex;
+  flex: 1 1;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: var(--ifm-profile-intro-left-margin);
+  text-align: var(--ifm-profile-intro-alignment);
+}
+.profile .name {
+  margin: 0;
+}
+.profile .subtitle {
+  margin-top: 0.25rem;
+}
