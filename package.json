@@ -51,6 +51,7 @@
     "dist"
   ],
   "dependencies": {
-    "@octokit/rest": "^17.1.4"
+    "@octokit/rest": "^17.1.4",
+    "styled-components": "^5.0.1"
   }
 }
