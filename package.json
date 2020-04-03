@@ -1,6 +1,6 @@
 {
   "name": "react-contributors",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Small and simple React Component to display project's contributors",
   "keywords": [
     "contributors",
