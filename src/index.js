@@ -15,13 +15,11 @@ const octokit = new Octokit();
 class ProfileComponent extends React.Component {
   render() {
     return (
-      <Profile>
+      <Profile href={this.props.url}>
         <Photo src={this.props.avatar_url} />
         <Intro>
           <Name>{this.props.name}</Name>
-          <Subtitle>
-            <a href={this.props.url}>{this.props.url}</a>
-          </Subtitle>
+          <Subtitle>Contributions: {this.props.contributions}</Subtitle>
         </Intro>
       </Profile>
     );
@@ -95,6 +93,7 @@ export default class Contributors extends React.Component {
                   avatar_url={contributor.avatar_url}
                   name={contributor.login}
                   url={contributor.html_url}
+                  contributions={contributor.contributions}
                 />
               );
             })
