@@ -8,12 +8,14 @@ export const ContributorsList = styled.div`
   margin: 1rem 1rem;
 `;
 
-export const Profile = styled.div`
+export const Profile = styled.a`
   display: flex;
   min-width: 18.125rem;
   width: 20%;
   margin: 1rem;
   padding: 1rem;
+  color: inherit;
+  text-decoration: inherit;
 `;
 
 export const Photo = styled.img`
