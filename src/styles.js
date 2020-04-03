@@ -37,8 +37,10 @@ export const Intro = styled.div`
 
 export const Name = styled.h4`
   margin: 0;
+  color: #2d767f;
 `;
 
 export const Subtitle = styled.small`
   margin-top: 0.25rem;
+  color: #3b9a9c;
 `;
