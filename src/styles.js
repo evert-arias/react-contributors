@@ -15,7 +15,7 @@ export const Profile = styled.a`
   margin: 1rem;
   padding: 1rem;
   color: inherit;
-  text-decoration: inherit;
+  text-decoration: none;
 `;
 
 export const Photo = styled.img`
