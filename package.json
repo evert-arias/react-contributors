@@ -2,6 +2,12 @@
   "name": "react-contributors",
   "version": "1.0.2",
   "description": "Small and simple React Component to display project's contributors",
+  "keywords": [
+    "contributors",
+    "collaborators",
+    "react",
+    "github"
+  ],
   "author": "evert-arias",
   "license": "MIT",
   "repository": "evert-arias/react-contributors",
