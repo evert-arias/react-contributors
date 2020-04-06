@@ -1,7 +1,7 @@
 {
   "name": "react-contributors-example",
   "homepage": "https://evert-arias.github.io/react-contributors",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "react": "file:../node_modules/react",
