@@ -1,0 +1,74 @@
+.react-contributors-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.react-contributors-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.react-contributors-profile {
+  display: flex;
+  width: 25%;
+  padding: 1rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.react-contributors-profile-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.react-contributors-avatar {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 9999px;
+  overflow: hidden;
+  margin-bottom: 0.5rem;
+}
+
+.react-contributors-info {
+  text-align: center;
+}
+
+.react-contributors-name {
+  margin: 0;
+  color: #2d767f;
+  font-weight: 500;
+}
+
+.react-contributors-contributions {
+  margin-top: 0.25rem;
+  display: block;
+  color: #3b9a9c;
+  font-size: 0.875rem;
+}
+
+.react-contributors-message {
+  width: 100%;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .react-contributors-profile {
+    width: 33.333%;
+  }
+}
+
+@media (max-width: 640px) {
+  .react-contributors-profile {
+    width: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  .react-contributors-profile {
+    width: 100%;
+  }
+}
