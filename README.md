@@ -6,7 +6,7 @@
 
 ## Demo
 
-Live demo: https://evert-arias.github.io/react-contributors/
+Live demo: <https://evert-arias.github.io/react-contributors/>
 
 ![demo](demo.png)
 
@@ -21,7 +21,8 @@ npm install --save react-contributors
 ```jsx
 import React, { Component } from "react";
 
-import Contributors from "react-contributors";
+// Import the component - styles are automatically included
+import { Contributors } from "react-contributors";
 
 // Username of the repo(s) owner.
 const owner = "evert-arias";
