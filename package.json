@@ -34,9 +34,9 @@
     "demo:install": "cd demo && npm install",
     "demo:build": "cd demo && npm run build",
     "demo:preview": "cd demo && npm run preview",
-    "predeploy": "cd demo && npm install && npm run build",
-    "deploy:demo": "cd demo && npm run build && gh-pages -d dist",
-    "deploy": "npm run deploy:demo"
+    "predeploy": "npm run build && npm run demo:install && npm run demo:build",
+    "deploy": "gh-pages -d demo/dist",
+    "release": "npm run build && npm version patch && git push && git push --tags"
   },
   "dependencies": {
     "@octokit/rest": "^21.1.1"
